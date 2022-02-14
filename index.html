@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HangMan</title>
+        <script src="script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class = "wordBoxDiv">
+            <input type="text" id = "wordBoxInput" placeholder="Insert a word to guess">
+            <button type="text" id = "chooseButton" class = "btn btn-info" onclick="chooseWord(document.getElementById('wordBoxInput').value)">Choose Word</button>
+        </div>
+        <div class = "wordShownDiv">
+            <p id = "chosenWordParagraph">
+
+            </p>
+        </div>
+        <div class = "buttonsDiv">
+            <button type="button" id = "aButton" class = "btn btn-success" value = "aButton" onclick = "buttonClicked(this.value)">A</button>
+            <button type="button" id = "bButton" class = "btn btn-success" value = "bButton" onclick = "buttonClicked(this.value)">B</button>
+            <button type="button" id = "cButton" class = "btn btn-success" value = "cButton" onclick = "buttonClicked(this.value)">C</button>
+            <button type="button" id = "dButton" class = "btn btn-success" value = "dButton" onclick = "buttonClicked(this.value)">D</button>
+            <button type="button" id = "eButton" class = "btn btn-success" value = "eButton" onclick = "buttonClicked(this.value)">E</button>
+            <button type="button" id = "fButton" class = "btn btn-success" value = "fButton" onclick = "buttonClicked(this.value)">F</button>
+            <button type="button" id = "gButton" class = "btn btn-success" value = "gButton" onclick = "buttonClicked(this.value)">G</button>
+            <button type="button" id = "hButton" class = "btn btn-success" value = "hButton" onclick = "buttonClicked(this.value)">H</button>
+            <button type="button" id = "iButton" class = "btn btn-success" value = "iButton" onclick = "buttonClicked(this.value)">I</button>
+            <button type="button" id = "jButton" class = "btn btn-success" value = "jButton" onclick = "buttonClicked(this.value)">J</button>
+            <button type="button" id = "kButton" class = "btn btn-success" value = "kButton" onclick = "buttonClicked(this.value)">K</button>
+            <button type="button" id = "lButton" class = "btn btn-success" value = "lButton" onclick = "buttonClicked(this.value)">L</button>
+            <button type="button" id = "mButton" class = "btn btn-success" value = "mButton" onclick = "buttonClicked(this.value)">M</button>
+            <button type="button" id = "nButton" class = "btn btn-success" value = "nButton" onclick = "buttonClicked(this.value)">N</button>
+            <button type="button" id = "oButton" class = "btn btn-success" value = "oButton" onclick = "buttonClicked(this.value)">O</button>
+            <button type="button" id = "pButton" class = "btn btn-success" value = "pButton" onclick = "buttonClicked(this.value)">P</button>
+            <button type="button" id = "qButton" class = "btn btn-success" value = "qButton" onclick = "buttonClicked(this.value)">Q</button>
+            <button type="button" id = "rButton" class = "btn btn-success" value = "rButton" onclick = "buttonClicked(this.value)">R</button>
+            <button type="button" id = "sButton" class = "btn btn-success" value = "sButton" onclick = "buttonClicked(this.value)">S</button>
+            <button type="button" id = "tButton" class = "btn btn-success" value = "tButton" onclick = "buttonClicked(this.value)">T</button>
+            <button type="button" id = "uButton" class = "btn btn-success" value = "uButton" onclick = "buttonClicked(this.value)">U</button>
+            <button type="button" id = "vButton" class = "btn btn-success" value = "vButton" onclick = "buttonClicked(this.value)">V</button>
+            <button type="button" id = "wButton" class = "btn btn-success" value = "wButton" onclick = "buttonClicked(this.value)">W</button>
+            <button type="button" id = "xButton" class = "btn btn-success" value = "xButton" onclick = "buttonClicked(this.value)">X</button>
+            <button type="button" id = "yButton" class = "btn btn-success" value = "yButton" onclick = "buttonClicked(this.value)">Y</button>
+            <button type="button" id = "zButton" class = "btn btn-success" value = "zButton" onclick = "buttonClicked(this.value)">Z</button>
+        </div>
+        <div class = "attemptsLeftDiv">
+            <p id = "attemptsLeftParagraph">
+
+            </p>
+        </div>
+    </body>
+</html>
